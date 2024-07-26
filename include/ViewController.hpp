@@ -21,3 +21,14 @@ void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToH
         BSML::Lite::CreateText(container->get_transform(), "Hello World!");
     }
 }
+
+namespace BSML {
+    void Init();
+    
+    std::shared_ptr<BSMLParser> parse(std::string_view str);
+    std::shared_ptr<BSMLParser> parse_and_construct(std::string_view str, UnityEngine::Transform* parent, Il2CppObject* host);
+}
+
+void MyNamespace::ExampleViewController::Awake() {
+    fileWatcher->filePath = "/sdcard/testview.bsml";
+}
