@@ -34,8 +34,8 @@ on:
         - 'fix/*'
 
 env:
-    module_id: "twitchchat"
-    qmod_name: "TwitchChat"
+    module_id: "twitchplus"
+    qmod_name: "TwitchPlus"
 
 jobs:
   build:

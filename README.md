@@ -3,17 +3,17 @@
 Add the whole twitch experience into Beat Saber Standalone.
 Features:
 
-• Viewer can request using !bsr (Code from [BeatSaver](https://beatsaver.com/))
-• Get the twitch chat in ur lobby & map
-• Customizable settings for u and ur viewers.
+• Viewer can request using !bsr (Code from [BeatSaver](https://beatsaver.com/))\n
+• Get the twitch chat in ur lobby & map.\n
+• Customizable settings for u and ur viewers.\n
 
 Existing comamnds:
 
-• !bsr (Code) - Viewer can use this command to request an Song.
-• !oops - Viewer can use this command to remove his song in the queue.
-• !close/open - Open or close the queue.
-• !modadd (Code) - Mods can use this command to bypass limitations.
-• !songmsg (Code) (Message) - Mods can use this command to add an text to the request.
+• !bsr (Code) - Viewer can use this command to request an Song.\n
+• !oops - Viewer can use this command to remove his song in the queue.\n
+• !close/open - Open or close the queue.\n
+• !modadd (Code) - Mods can use this command to bypass limitations.\n
+• !songmsg (Code) (Message) - Mods can use this command to add an text to the request.\n
 
 ## Credits
 
