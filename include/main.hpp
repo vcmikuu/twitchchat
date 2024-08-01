@@ -13,8 +13,6 @@
 #include "beatsaber-hook/shared/utils/logging.hpp"
 #include "bsml/shared/BSML.hpp"
 
-#include "ViewController.hpp"
-
 #include "paper/shared/logger.hpp"
 
 #include "_config.hpp"

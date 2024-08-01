@@ -14,6 +14,21 @@ Configuration &getConfig() {
   return config;
 }
 
+
+void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling){
+    if(firstActivation){
+        // Make Touchable
+        self->get_gameObject()->AddComponent<HMUI::Touchable*>();
+
+        // Create Container
+        auto* container = BSML::Lite::CreateScrollableSettingsContainer(self->get_transform());
+        
+        // Add Options
+        AddConfigValueToggle(container->get_transform(), getModConfig().SendTwitchMessages);
+    }
+}
+
+
 // Called at the early stages of game loading
 MOD_EXTERN_FUNC void setup(CModInfo *info) noexcept {
   *info = modInfo.to_c();
