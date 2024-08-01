@@ -45,6 +45,12 @@ MOD_EXTERN_FUNC void setup(CModInfo *info) noexcept {
 MOD_EXTERN_FUNC void late_load() noexcept {
   il2cpp_functions::Init();
 
+  getModConfig().Init(modInfo);
+  BSML::Init();
+
+  BSML::Register::RegisterSettingsMenu("TwitchPlus", DidActivate, true);
+
+  auto logger = Paper::ConstLoggerContext("TwitchPlus");
   PaperLogger.info("Installing hooks...");
 
   PaperLogger.info("Installed all hooks!");
