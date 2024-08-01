@@ -18,8 +18,6 @@
 #include "scotland2/shared/loader.hpp"
 #include "paper/shared/logger.hpp"
 
-#include "logger.hpp"
-
 #include "_config.hpp"
 #include "config.hpp"
 

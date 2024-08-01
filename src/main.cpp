@@ -50,7 +50,6 @@ MOD_EXTERN_FUNC void late_load() noexcept {
 
   BSML::Register::RegisterSettingsMenu("TwitchPlus", DidActivate, true);
 
-  auto logger = Paper::ConstLoggerContext("TwitchPlus");
   PaperLogger.info("Installing hooks...");
 
   PaperLogger.info("Installed all hooks!");
