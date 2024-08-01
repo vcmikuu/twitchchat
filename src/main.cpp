@@ -25,7 +25,7 @@ void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToH
         
         // Add Options
         AddConfigValueToggle(container->get_transform(), getModConfig().SendTwitchMessages);
-        CreateSliderSettting(container->get_transform(), getModConfig().MaxNPS);
+        CreateSliderSetting(container->get_transform(), getModConfig().MaxNPS);
     }
 }
 
