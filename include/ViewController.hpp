@@ -2,6 +2,7 @@
 #pragma once
 #include "bsml/shared/BSML.hpp"
 #include "UnityEngine/Transform.hpp"
+#include "BSML/Parsing/BSMLParser.hpp"
 
 
 namespace BSML {
@@ -22,7 +23,7 @@ void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToH
     }
 }
 
-void ViewController::GettingBSML::Awake() {
+void ViewController::ViewController::Awake() {
     fileWatcher->filePath = "/sdcard/testview.bsml";
 }
 
