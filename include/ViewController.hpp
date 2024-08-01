@@ -2,7 +2,7 @@
 #pragma once
 #include "bsml/shared/BSML.hpp"
 #include "UnityEngine/Transform.hpp"
-#include "BSML/Parsing/BSMLParser.hpp"
+
 
 namespace BSML {
     void Init();
