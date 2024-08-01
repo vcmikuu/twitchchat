@@ -1,9 +1,19 @@
-# TwitchChat
+# TwitchPlus
 
-Bring the twitch chat into Beat Saber standalone.
+Add the whole twitch experience into Beat Saber Standalone.
+Features:
 
-Use `qpm s build` to build
-Same goes for `qpm s copy` and `qpm s qmod`
+• Viewer can request using !bsr (Code from [BeatSaver](https://beatsaver.com/))
+• Get the twitch chat in ur lobby & map
+• Customizable settings for u and ur viewers.
+
+Existing comamnds:
+
+• !bsr (Code) - Viewer can use this command to request an Song.
+• !oops - Viewer can use this command to remove his song in the queue.
+• !close/open - Open or close the queue.
+• !modadd (Code) - Mods can use this command to bypass limitations.
+• !songmsg (Code) (Message) - Mods can use this command to add an text to the request.
 
 ## Credits
 

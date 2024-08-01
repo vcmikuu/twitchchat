@@ -3,12 +3,12 @@
   "sharedDir": "shared",
   "dependenciesDir": "extern",
   "info": {
-    "name": "TwitchChat",
-    "id": "twitchchat",
+    "name": "TwitchPlus",
+    "id": "twitchplus",
     "version": "0.1.0",
     "url": null,
     "additionalData": {
-      "overrideSoName": "libtwitchchat.so",
+      "overrideSoName": "libtwitchplus.so",
       "cmake": true
     }
   },
@@ -45,7 +45,7 @@
       "./extern/libs"
     ],
     "qmodIncludeFiles": [],
-    "qmodOutput": "./TwitchChat.qmod"
+    "qmodOutput": "./TwitchPlus.qmod"
   },
   "dependencies": [
     {
