@@ -12,6 +12,8 @@
 #include "beatsaber-hook/shared/utils/il2cpp-functions.hpp"
 #include "beatsaber-hook/shared/utils/logging.hpp"
 #include "bsml/shared/BSML.hpp"
+#include "HMUI/ViewController.hpp"
+#include "HMUI/Touchable.hpp"
 
 #include "paper/shared/logger.hpp"
 
@@ -19,8 +21,6 @@
 #include "config.hpp"
 
 void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
-
-void SetPitchSpeed(GlobalNamespace::GameplayModifiersPanelController* self);
 
 // Define these functions here so that we can easily read configuration and
 // log information from other files
