@@ -22,3 +22,7 @@
 #include "config.hpp"
 
 void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+
+Configuration &getConfig();
+
+constexpr auto PaperLogger = Paper::ConstLoggerContext("#{id}");
