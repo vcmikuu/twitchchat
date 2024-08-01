@@ -12,6 +12,7 @@
 #include "beatsaber-hook/shared/utils/il2cpp-functions.hpp"
 #include "beatsaber-hook/shared/utils/logging.hpp"
 
+#include "ViewController.hpp"
 
 #include "paper/shared/logger.hpp"
 
