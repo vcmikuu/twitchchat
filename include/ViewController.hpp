@@ -22,3 +22,7 @@ void DidActivate(HMUI::ViewController* self, bool firstActivation, bool addedToH
     }
 }
 
+void ViewController::GettingBSML::Awake() {
+    fileWatcher->filePath = "/sdcard/testview.bsml";
+}
+
